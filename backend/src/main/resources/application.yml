@@ -1,0 +1,15 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: visitor-access-system
+  
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+logging:
+  level:
+    root: INFO
+    com.visitor.access: DEBUG
